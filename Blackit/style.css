@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.home_container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/backgrownd.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*padding: 0px 40px;*/
+    padding: 20px;
+    z-index: 999;
+}
+
+.header img {
+    height: 90px;
+    padding-left: 10px;
+}
+
+.header ul {
+    padding-right: 10vh;
+    padding-top: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header ul li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    position: absolute;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main img {
+    height: 600px;
+}
+
+.main h1 {
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about_container {
+    width: 100%;
+    min-height: 110vh;
+    background-image: url(img/backgrownd2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about_text {
+    padding-top: 250px;
+    padding-left: 100px;
+    width: 800px;
+}
+
+.about_text h2 {
+    padding-top: 20px;
+}
+
+.news_container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/backgrownd4.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.news_text {
+    color: white;
+    padding-top: 130px;
+    padding-left: 80px;
+    width: 750px;
+}
+
+.news_text h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.news_text h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contact_container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_container h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.icons a {
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+.icons i:hover {
+    color: rgb(209, 70, 70);
+}
